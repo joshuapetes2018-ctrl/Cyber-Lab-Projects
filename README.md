@@ -13,7 +13,7 @@ Custom Python sniffer using **Scapy** to capture HTTP, HTTPS, and DNS traffic.
 - Alerts when high traffic is detected from a single IP  
 
 **Sniffer Demo:**  
-![Sniffer Output](screenshots/sniffer_output.png)
+![Sniffer Output](Screenshots/sniffer_output.png)
 
 ---
 
@@ -24,16 +24,13 @@ Network capture and analysis performed in Wireshark.
 - Exported capture to `portfolio_capture.pcap`  
 
 **Screenshots:**  
-- Wireshark Home: ![Wireshark Home](screenshots/wireshark_home.png)  
-- Filter Applied: ![Wireshark Filter](screenshots/wireshark_filter.png)  
+- Wireshark Home: ![Wireshark Home](screenshots/Wireshark_home.png)  
+- Filter Applied: ![Wireshark Filter](screenshots/Wireshark_filter.png)  
 
 ---
 
 ### 3. SIEM Dashboard (Internal Log Test)
 Custom XML dashboard for visualizing logs in a SIEM (Splunk/ELK style).
-
-**Screenshot:**  
-![Internal Log Test](screenshots/internal_log_test.png)
 
 ---
 
