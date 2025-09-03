@@ -9,7 +9,7 @@ A collection of cybersecurity projects showcasing packet sniffing, traffic analy
 Custom Python sniffer using **Scapy** to capture HTTP, HTTPS, and DNS traffic.
 
 - Captures source/destination IP, ports, protocol, and payload snippet  
-- Logs packets into `packets.csv`  
+- Logs packets into `packets.csv` (sample output shown below)  
 - Alerts when high traffic is detected from a single IP  
 
 **Sniffer Demo:**  
@@ -38,3 +38,4 @@ Custom XML dashboard for visualizing logs in a SIEM (Splunk/ELK style).
 ---
 
 ## 📂 Repo Structure
+
