@@ -1,38 +1,48 @@
-# Cyber-Lab-Projects
-A collection of cybersecurity projects showcasing packet sniffing, traffic analysis, and SIEM dashboarding.
+# Cyber Lab Projects
 
----
+This repository showcases hands-on cybersecurity projects I built to demonstrate skills in **network traffic analysis, log inspection, and SIEM dashboards**.  
 
 ## 🔹 Projects
 
-### 1. Python Packet Sniffer
-Custom Python sniffer using **Scapy** to capture HTTP, HTTPS, and DNS traffic.
+### 1. Python Sniffer (`sniffer_2.0.py`)
+A custom Python script for packet sniffing.  
+- Captures live network traffic  
+- Displays source/destination IPs, ports, and packet details  
+- Demonstrates socket programming and low-level packet parsing  
 
-- Captures source/destination IP, ports, protocol, and payload snippet  
-- Logs packets into `packets.csv` (sample output shown below)  
-- Alerts when high traffic is detected from a single IP  
-
-**Sniffer Demo:**  
-![Sniffer Output](Screenshots/sniffer_output.png)
+📷 Screenshots:  
+- `03.Sniffer_code.png` – source code  
+- `04.Sniffer_running.png` – live packet capture  
+- `06.Sniffer_output.png` – parsed output  
 
 ---
 
 ### 2. Wireshark Analysis
-Network capture and analysis performed in Wireshark.
+Practical lab using Wireshark for network traffic analysis.  
+- Applied filters for DNS, HTTP/HTTPS, and TCP traffic  
+- Identified suspicious activity in packet captures  
+- Demonstrated hands-on analysis for SOC environments  
 
-- Filtered TCP/HTTP/HTTPS traffic  
-- Exported capture to `portfolio_capture.pcap`  
-
-**Screenshots:**  
-- Wireshark Home: ![Wireshark Home](screenshots/Wireshark_home.png)  
-- Filter Applied: ![Wireshark Filter](screenshots/Wireshark_filter.png)  
-
----
-
-### 3. SIEM Dashboard (Internal Log Test)
-Custom XML dashboard for visualizing logs in a SIEM (Splunk/ELK style).
+📷 Screenshots:  
+- `01.Wireshark_home.png` – Wireshark interface  
+- `02.Wireshark_filter_and_Analysis.png` – applying filters and interpreting results  
 
 ---
 
-## 📂 Repo Structure
+### 3. Splunk Internal Log Dashboard
+A Splunk dashboard for log analysis and SIEM-style visualization.  
+- Built an **Internal Log Test Dashboard**  
+- Ingested Windows Event Logs and Splunk logs  
+- Used search queries to display events and trends  
+
+📷 Screenshot:  
+- `05.Splunk_dashboard.png` – dashboard output  
+
+📄 XML Source:  
+- `Internal_Log_Test_Dashboard.xml`  
+
+---
+
+## 📂 Repository Structure
+
 
